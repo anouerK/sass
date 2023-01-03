@@ -1,0 +1,71 @@
+@import './variables.scss';
+@font-face {
+    font-family: "Lato Regular";
+    src: url("../Fonts/Lato/Lato-Regular.ttf");
+  }
+  @font-face {
+    font-family: playfairSC_Bold;
+    src: url("../Fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf");
+  }
+.navbar{
+    background-color: $header_color;
+}
+.footer{
+    background-color: $footer_color;
+}
+.nav-link{
+    color: $writting_color_header !important;
+}
+.titlef{
+    font-family: "Playfair Display SC Bold";
+  
+
+}
+.bi{
+  font-size: 45px;
+}
+.bf{
+  font-size: 35px;
+}
+.heading-1{
+    color: $header1 ;
+    font-size: 2.1rem;
+}
+.heading-2{
+    color :$header2;
+    font-size: 1.25rem;
+}
+.heading-3{
+    color :$header3;
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+.heading-4{
+    color :$header2;
+    font-size: 1.25rem;
+   
+}
+.heading-5{
+    color :$header4;
+    font-size: 1.25rem;
+   
+}
+p{
+    
+    font-size: 0.9rem;
+    font-family: "Lato Regular";
+    
+  }
+
+  .nav-item{
+    font-size: 1.5rem;
+   
+  }
+  .footertext{
+    color:white;
+  }
+  .textc{
+    font-size: 1.25rem;
+    font-family: "Lato Regular";
+    text-indent: 30px;
+  }
